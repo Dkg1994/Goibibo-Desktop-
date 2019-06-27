@@ -29,9 +29,9 @@
   
  <distributionManagement>
     <repository>
-      <id>Goibibo_Desktop</id>
-      <name>Goibibo_Desktop</name>
-      <url>http://localhost:8080/job/Goibibo_Desktop/</url>
+      <id>Goibibo-Desktop-</id>
+      <name>Goibibo-Desktop-</name>
+      <url>https://github.com/Dkg1994/Goibibo-Desktop-</url>
     </repository>
 </distributionManagement>
 
