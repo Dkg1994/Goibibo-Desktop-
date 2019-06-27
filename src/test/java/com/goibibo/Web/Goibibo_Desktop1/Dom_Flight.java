@@ -17,7 +17,7 @@ import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 public class Dom_Flight {
   @Test
   public void f() throws InterruptedException {
-	  ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter("D:\\Reports\\Dom_FLight.html");
+	  ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter("C:\\Program Files (x86)\\Jenkins\\workspace\\Maven Project (Desktop)\\Current\\Dom_FLight.html");
 	    
       // create ExtentReports and attach reporter(s)
       ExtentReports extent = new ExtentReports();

@@ -19,7 +19,7 @@ public class Dom_Hotel {
 
 	  
 		
-	  ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter("D:\\Reports\\Dom_Hotel.html");
+	  ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter("C:\\Program Files (x86)\\Jenkins\\workspace\\Maven Project (Desktop)\\Current\\Dom_Hotel.html");
 	    
       // create ExtentReports and attach reporter(s)
       ExtentReports extent = new ExtentReports();

@@ -17,7 +17,7 @@ public class International_Hotel {
   @Test
   public void f() throws InterruptedException {
 	  
-	  ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter("D:\\Reports\\International_Hotel.html");
+	  ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter("C:\\Program Files (x86)\\Jenkins\\workspace\\Maven Project (Desktop)\\Current\\International_Hotel.html");
 	    
       // create ExtentReports and attach reporter(s)
       ExtentReports extent = new ExtentReports();
