@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test thread-count="5" verbose="0" name="Test(failed)">
+    <classes>
+      <class name="com.goibibo.Web.Goibibo_Desktop1.Dom_Hotel">
+        <methods>
+          <include name="f"/>
+        </methods>
+      </class> <!-- com.goibibo.Web.Goibibo_Desktop1.Dom_Hotel -->
+      <class name="com.goibibo.Web.Goibibo_Desktop1.International_Flight_OW">
+        <methods>
+          <include name="f"/>
+        </methods>
+      </class> <!-- com.goibibo.Web.Goibibo_Desktop1.International_Flight_OW -->
+      <class name="com.goibibo.Web.Goibibo_Desktop1.Train_Vertical">
+        <methods>
+          <include name="f"/>
+        </methods>
+      </class> <!-- com.goibibo.Web.Goibibo_Desktop1.Train_Vertical -->
+      <class name="com.goibibo.Web.Goibibo_Desktop1.Car_Vertical">
+        <methods>
+          <include name="f"/>
+        </methods>
+      </class> <!-- com.goibibo.Web.Goibibo_Desktop1.Car_Vertical -->
+      <class name="com.goibibo.Web.Goibibo_Desktop1.Dom_Flight">
+        <methods>
+          <include name="f"/>
+        </methods>
+      </class> <!-- com.goibibo.Web.Goibibo_Desktop1.Dom_Flight -->
+      <class name="com.goibibo.Web.Goibibo_Desktop1.International_Hotel">
+        <methods>
+          <include name="f"/>
+        </methods>
+      </class> <!-- com.goibibo.Web.Goibibo_Desktop1.International_Hotel -->
+      <class name="com.goibibo.Web.Goibibo_Desktop1.Sign_IN">
+        <methods>
+          <include name="f"/>
+        </methods>
+      </class> <!-- com.goibibo.Web.Goibibo_Desktop1.Sign_IN -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

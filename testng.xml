@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.goibibo.Web.Goibibo_Desktop1.Dom_Hotel"/>
+      <class name="com.goibibo.Web.Goibibo_Desktop1.Train_Vertical"/>
+      <class name="com.goibibo.Web.Goibibo_Desktop1.Car_Vertical"/>
+      <class name="com.goibibo.Web.Goibibo_Desktop1.International_Hotel"/>
+      <class name="com.goibibo.Web.Goibibo_Desktop1.Bus_Vertical"/>
+      <class name="com.goibibo.Web.Goibibo_Desktop1.Dom_Flight"/>
+      <class name="com.goibibo.Web.Goibibo_Desktop1.Sign_IN"/>
+      <class name="com.goibibo.Web.Goibibo_Desktop1.International_Flight_OW"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
