@@ -32,6 +32,8 @@ public class Sign_IN {
   
   driver.manage().window().maximize();
   
+  Thread.sleep(3000);
+  
   test1.log(Status.INFO, "Starting test case");
   driver.get("https://www.goibibo.com");
   test1.pass("Navigate to goibibo");
