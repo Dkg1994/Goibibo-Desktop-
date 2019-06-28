@@ -121,7 +121,7 @@ Thread.sleep(2000);
 driver.findElement(By.xpath("//*[@id=\"travellerForm\"]/div[14]/div[2]")).click();
 test1.pass("Click on Pay button");
 
-Thread.sleep(20000);
+Thread.sleep(35000);
 
 driver.findElement(By.xpath("//*[@id=\"nb\"]/div[1]/div[1]/div[2]")).click();
 test1.pass("Select netbanking");
