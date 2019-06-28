@@ -17,7 +17,7 @@ import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 public class Dom_Flight {
   @Test
   public void f() throws InterruptedException {
-	  ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter("C:\\Program Files (x86)\\Jenkins\\workspace\\Maven Project (Desktop)\\Current\\Dom_FLight.html");
+	  ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter("C:\\Program Files (x86)\\Jenkins\\workspace\\Maven Project (Desktop)\\test-output\\Dom_FLight.html");
 	    
       // create ExtentReports and attach reporter(s)
       ExtentReports extent = new ExtentReports();
@@ -166,7 +166,7 @@ public class Dom_Flight {
 	       
 	       driver.findElement(By.xpath("//*[@id=\"travellerForm\"]/div[2]/button")).click();
 	       test1.pass("Proceed To Payment");
-	       Thread.sleep(7000);
+	       Thread.sleep(10000);
 	       
 //	       Click on Net banking option
 	       

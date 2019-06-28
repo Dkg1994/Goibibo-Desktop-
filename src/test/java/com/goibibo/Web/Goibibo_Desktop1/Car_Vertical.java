@@ -16,7 +16,7 @@ public class Car_Vertical {
   @Test
   public void f() throws InterruptedException {
 	  
-	  ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter("C:\\Program Files (x86)\\Jenkins\\workspace\\Maven Project (Desktop)\\Current\\Car_Vertical.html");
+	  ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter("C:\\Program Files (x86)\\Jenkins\\workspace\\Maven Project (Desktop)\\test-output\\Car_Vertical.html");
 	    
       // create ExtentReports and attach reporter(s)
       ExtentReports extent = new ExtentReports();
