@@ -100,12 +100,14 @@ public class Dom_Flight {
 	    
 	    test1.pass("Click on Airindia Airline from Filter");
 	    
-	    Thread.sleep(3000);
+	    Thread.sleep(5000);
 	    
 	  //  To click on book button
-	          
-	       driver.findElement(By.xpath("//*[@id=\"content\"]/div/div[2]/div/div[4]/div/div[5]/div[2]/div[2]/div/div/span[1]/span/input")).click();
-	       test1.pass("Click on Book button");
+	    
+//	    driver.findElement(By.linkText("BOOK")).click();
+	    
+	       driver.findElement(By.xpath("//*[@id=\"content\"]/div/div[2]/div/div[4]/div/div[4]/div[2]/div[2]/div/div/span[1]/span/input")).click();
+//	       test1.pass("Click on Book button");
 	       
 	       Thread.sleep(5000);
 	       

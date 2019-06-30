@@ -86,8 +86,14 @@ Thread.sleep(2000);
 	driver.findElement(By.id("gi_onward_text")).click();
 	test1.pass("Click on Date");
 	
+	Thread.sleep(2000);
 	
-driver.findElement(By.xpath("//*[@id=\"jrdp_start-calen_5_29_2019\"]/div/span")).click();
+	driver.findElement(By.xpath("//*[@id=\"jrdp_start-calen_nextmonth_multi_1\"]")).click();
+	test1.pass("Click on next month");
+	
+	Thread.sleep(2000);
+	
+driver.findElement(By.xpath("//*[@id=\"jrdp_start-calen_6_31_2019\"]/div")).click();
 test1.pass("Click on date 29");
 
 Thread.sleep(2000);
@@ -127,14 +133,16 @@ Thread.sleep(5000);
 driver.findElement(By.linkText("Seat Layout")).click();
 test1.pass("Click on Seat Layout");
 
-driver.findElement(By.xpath("//*[@id=\"onw~redbusnew@1000011931012635100~2\"]")).click();
+
+driver.findElement(By.xpath("//*[@id=\"onw~redbusnew@2000011931330117804~42\"]")).click();
 test1.pass("Click on Seat");
+test1.fail("Click on seat");
 
 Thread.sleep(1000);
 
-driver.findElement(By.xpath("//*[@id=\"bp-onw-redbusnew@1000011931012635100\"]/option[2]")).click();
-test1.pass("Select Borading point");
-Thread.sleep(2000);
+//driver.findElement(By.xpath("//*[@id=\"bp-onw-redbusnew@1000011931012635100\"]/option[2]")).click();
+//test1.pass("Select Borading point");
+//Thread.sleep(2000);
 
 driver.findElement(By.id("confirm")).click();
 test1.pass("Click on confirm booking");
