@@ -78,7 +78,7 @@ public class Dom_Flight {
 	          
 //	          To select date
 	          
-	          driver.findElement(By.xpath("//*[@id=\"fare_20190727\"]")).click();
+	          driver.findElement(By.xpath("//*[@id=\"fare_20190831\"]")).click();
 	          test1.pass("Click on Date 27");
 //	          To click on search button
 	          

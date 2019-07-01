@@ -93,7 +93,7 @@ Thread.sleep(2000);
 	
 	Thread.sleep(2000);
 	
-driver.findElement(By.xpath("//*[@id=\"jrdp_start-calen_6_31_2019\"]/div")).click();
+driver.findElement(By.xpath("//*[@id=\"jrdp_start-calen_8_4_2019\"]")).click();
 test1.pass("Click on date 29");
 
 Thread.sleep(2000);
@@ -112,7 +112,7 @@ test1.pass("Select Bus operator");
 
 Thread.sleep(2000);
 
-driver.findElement(By.xpath("//*[@id=\"fltcrr-div\"]/li[1]/label")).click();
+driver.findElement(By.xpath("//*[@id=\"fltcrr-div\"]/li[2]/label")).click();
 test1.pass("Choose operator from Bus operator filter");
 
 Thread.sleep(2000);
@@ -133,16 +133,31 @@ Thread.sleep(5000);
 driver.findElement(By.linkText("Seat Layout")).click();
 test1.pass("Click on Seat Layout");
 
+if (driver.findElement(By.xpath("//*[@id=\"onw~redbusnew@2000011931680105922~38\"]")).isDisplayed()) {
+	
+	driver.findElement(By.xpath("//*[@id=\"onw~redbusnew@2000011931680105922~38\"]")).click();
 
-driver.findElement(By.xpath("//*[@id=\"onw~redbusnew@2000011931330117804~42\"]")).click();
+System.out.println("clicked");
+
+}else if (driver.findElement(By.xpath("//*[@id=\"onw~redbusnew@2000011931680105922~15\"]")).isDisplayed()) {
+	
+	driver.findElement(By.xpath("//*[@id=\"onw~redbusnew@2000011931680105922~15\"]")).click();
+	
+	System.out.println("clicked in else if");
+	
+}
+
+
 test1.pass("Click on Seat");
 test1.fail("Click on seat");
 
 Thread.sleep(1000);
 
-//driver.findElement(By.xpath("//*[@id=\"bp-onw-redbusnew@1000011931012635100\"]/option[2]")).click();
-//test1.pass("Select Borading point");
-//Thread.sleep(2000);
+
+driver.findElement(By.xpath("//*[@id=\"bp-onw-redbusnew@2000011931680105922\"]/option[2]")).click();
+test1.pass("Select Borading point");
+Thread.sleep(2000);
+
 
 driver.findElement(By.id("confirm")).click();
 test1.pass("Click on confirm booking");
