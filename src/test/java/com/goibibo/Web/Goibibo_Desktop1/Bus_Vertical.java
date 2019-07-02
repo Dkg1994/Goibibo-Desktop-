@@ -146,10 +146,8 @@ System.out.println("clicked");
 	System.out.println("clicked in else if");
 	
 }
-
-
 test1.pass("Click on Seat");
-test1.fail("Click on seat");
+
 
 Thread.sleep(1000);
 

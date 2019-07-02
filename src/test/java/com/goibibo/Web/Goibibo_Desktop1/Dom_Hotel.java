@@ -62,6 +62,12 @@ Thread.sleep(2000);
 driver.findElement(By.xpath("//*[@id=\"Home\"]/div[3]/div[1]/div/div[1]/div[3]/div/div[3]/div/button")).click();
 test1.pass("Click on Search button");
 
+
+Thread.sleep(2000);
+
+driver.findElement(By.xpath("//*[@id=\"srpContainer\"]/div[2]/div[2]/div/div[1]/div/ul/li[5]/div/div[3]/div")).click();
+test1.pass("Click on two star hotel");
+
 Thread.sleep(2000);
 
 driver.findElement(By.linkText("The Ganga")).click();
