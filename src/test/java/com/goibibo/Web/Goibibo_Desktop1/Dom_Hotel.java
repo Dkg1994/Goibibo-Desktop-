@@ -31,7 +31,7 @@ public class Dom_Hotel {
 	  
 		
 		
-System.setProperty("webdriver.chrome.driver","D:\\Eclips backup\\Jar Files for use in selenium\\chromedriver.exe");
+System.setProperty("webdriver.chrome.driver","D:\\Eclips backup\\Jar Files for use in selenium\\chromedriver_win32\\chromedriver.exe");
 	
   WebDriver driver = new ChromeDriver();
 

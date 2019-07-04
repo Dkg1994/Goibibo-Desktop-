@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="87023" started-at="2019-07-04T05:30:41Z" finished-at="2019-07-04T05:32:08Z">
+  <suite name="Default suite" duration-ms="64857" started-at="2019-07-04T08:50:10Z" finished-at="2019-07-04T08:51:15Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="87023" started-at="2019-07-04T05:30:41Z" finished-at="2019-07-04T05:32:08Z">
+    <test name="Default test" duration-ms="64857" started-at="2019-07-04T08:50:10Z" finished-at="2019-07-04T08:51:15Z">
       <class name="com.goibibo.Web.Goibibo_Desktop1.Dom_Flight">
-        <test-method status="FAIL" signature="f()[pri:0, instance:com.goibibo.Web.Goibibo_Desktop1.Dom_Flight@42d80b78]" name="f" duration-ms="86993" started-at="2019-07-04T05:30:41Z" finished-at="2019-07-04T05:32:08Z">
+        <test-method status="FAIL" signature="f()[pri:0, instance:com.goibibo.Web.Goibibo_Desktop1.Dom_Flight@42d80b78]" name="f" duration-ms="64818" started-at="2019-07-04T08:50:10Z" finished-at="2019-07-04T08:51:15Z">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[chrome not reachable
@@ -15,9 +15,9 @@
 Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
 System info: host: 'DEVENDRAGUPTA', ip: '172.100.150.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.80, chrome: {chromedriverVersion: 75.0.3770.8 (681f24ea911fe7..., userDataDir: C:\Users\DEVEND~1.GUP\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:62195}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 0c6f77afcc5435474433f8f5a8c763b9
-*** Element info: {Using=xpath, value=//*[@id="nb"]}]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.80, chrome: {chromedriverVersion: 75.0.3770.8 (681f24ea911fe7..., userDataDir: C:\Users\DEVEND~1.GUP\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:64570}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f9db955eaa1ee762edc0f335a3d4c1e1
+*** Element info: {Using=xpath, value=//*[@id="content"]/div/div[2]/div/div[2]/div/div[1]/div[1]/div[3]/div[2]/div/a}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
@@ -25,9 +25,9 @@ Session ID: 0c6f77afcc5435474433f8f5a8c763b9
 Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
 System info: host: 'DEVENDRAGUPTA', ip: '172.100.150.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.80, chrome: {chromedriverVersion: 75.0.3770.8 (681f24ea911fe7..., userDataDir: C:\Users\DEVEND~1.GUP\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:62195}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 0c6f77afcc5435474433f8f5a8c763b9
-*** Element info: {Using=xpath, value=//*[@id="nb"]}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.80, chrome: {chromedriverVersion: 75.0.3770.8 (681f24ea911fe7..., userDataDir: C:\Users\DEVEND~1.GUP\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:64570}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f9db955eaa1ee762edc0f335a3d4c1e1
+*** Element info: {Using=xpath, value=//*[@id="content"]/div/div[2]/div/div[2]/div/div[1]/div[1]/div[3]/div[2]/div/a}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -42,7 +42,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
 at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-at com.goibibo.Web.Goibibo_Desktop1.Dom_Flight.f(Dom_Flight.java:175)
+at com.goibibo.Web.Goibibo_Desktop1.Dom_Flight.f(Dom_Flight.java:128)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)

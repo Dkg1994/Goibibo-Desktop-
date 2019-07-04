@@ -29,7 +29,7 @@ public class Dom_Flight {
 
 	  
 		
-	  System.setProperty("webdriver.chrome.driver","D:\\Eclips backup\\Jar Files for use in selenium\\chromedriver.exe");
+	  System.setProperty("webdriver.chrome.driver","D:\\Eclips backup\\Jar Files for use in selenium\\chromedriver_win32\\chromedriver.exe");
 	  		
 	          WebDriver driver = new ChromeDriver();
 	          
@@ -100,11 +100,10 @@ public class Dom_Flight {
 	    
 	    test1.pass("Click on Airindia Airline from Filter");
 	    
-	    Thread.sleep(5000);
+	    Thread.sleep(9000);
 	    
 	  //  To click on book button
 	    
-//	    driver.findElement(By.linkText("BOOK")).click();
 	    
 	       driver.findElement(By.xpath("//div[@class='width100 fl greyBg']//div[4]//div[2]//div[2]//div[1]//div[1]//span[1]//span[1]//input[1]")).click();
 //	       test1.pass("Click on Book button");
