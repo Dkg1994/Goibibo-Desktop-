@@ -106,7 +106,7 @@ public class Dom_Flight {
 	    
 //	    driver.findElement(By.linkText("BOOK")).click();
 	    
-	       driver.findElement(By.xpath("//*[@id=\"content\"]/div/div[2]/div/div[4]/div/div[4]/div[2]/div[2]/div/div/span[1]/span/input")).click();
+	       driver.findElement(By.xpath("//div[@class='width100 fl greyBg']//div[4]//div[2]//div[2]//div[1]//div[1]//span[1]//span[1]//input[1]")).click();
 //	       test1.pass("Click on Book button");
 	       
 	       Thread.sleep(5000);

@@ -41,7 +41,6 @@ System.setProperty("webdriver.chrome.driver","D:\\Eclips backup\\Jar Files for u
 //  	
 //
 //  	 WebDriver driver = new FirefoxDriver();
-
       
   driver.manage().window().maximize();
   
