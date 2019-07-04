@@ -3,6 +3,7 @@ package com.goibibo.Web.Goibibo_Desktop1;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 
 import com.aventstack.extentreports.ExtentReports;
@@ -26,9 +27,17 @@ public class Sign_IN {
       
      
 
-	System.setProperty("webdriver.chrome.driver","D:\\Eclips backup\\Jar Files for use in selenium\\chromedriver.exe");
-	
-  WebDriver driver = new ChromeDriver();
+//	System.setProperty("webdriver.chrome.driver","D:\\Eclips backup\\Jar Files for use in selenium\\chromedriver.exe");
+//	
+//  WebDriver driver = new ChromeDriver();
+      
+  	
+  	System.setProperty("webdriver.gecko.driver","D:\\Software\\geckodriver-v0.22.0-win32\\geckodriver.exe");
+  			
+  	
+
+  	 WebDriver driver = new FirefoxDriver();
+
   
   driver.manage().window().maximize();
   

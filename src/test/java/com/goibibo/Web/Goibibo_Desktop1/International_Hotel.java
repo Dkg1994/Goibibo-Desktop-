@@ -86,8 +86,8 @@ System.setProperty("webdriver.chrome.driver","D:\\Eclips backup\\Jar Files for u
 	  Thread.sleep(3000);
 	  
 	  
-	   driver.findElement(By.xpath("//*[@id=\"DetailsQuickView\"]/div[2]/div[2]/div[7]")).click();
-	  test1.pass("Click on Book Now Button from Hotel Details page");
+	  driver.findElement(By.linkText("Book Now")).click();
+	  test1.pass("Click on Book Now button");
 	   
 	  Thread.sleep(2000);
 	  

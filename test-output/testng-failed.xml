@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.goibibo.Web.Goibibo_Desktop1.Dom_Hotel">
+      <class name="com.goibibo.Web.Goibibo_Desktop1.International_Hotel">
         <methods>
           <include name="f"/>
         </methods>
-      </class> <!-- com.goibibo.Web.Goibibo_Desktop1.Dom_Hotel -->
+      </class> <!-- com.goibibo.Web.Goibibo_Desktop1.International_Hotel -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -6,6 +6,7 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 
 import com.aventstack.extentreports.ExtentReports;
@@ -33,7 +34,15 @@ public class Dom_Hotel {
 System.setProperty("webdriver.chrome.driver","D:\\Eclips backup\\Jar Files for use in selenium\\chromedriver.exe");
 	
   WebDriver driver = new ChromeDriver();
-  
+
+  	
+//  	System.setProperty("webdriver.gecko.driver","D:\\Software\\geckodriver-v0.22.0-win32\\geckodriver.exe");
+//  			
+//  	
+//
+//  	 WebDriver driver = new FirefoxDriver();
+
+      
   driver.manage().window().maximize();
   
 	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -49,10 +58,10 @@ System.setProperty("webdriver.chrome.driver","D:\\Eclips backup\\Jar Files for u
 
 	Thread.sleep(3000);
 	
-	driver.findElement(By.xpath("//*[@id=\"gosuggest_inputL\"]")).sendKeys("Fatehabad");
+	driver.findElement(By.id("gosuggest_inputL")).sendKeys("Fatehabad");
 	test1.pass("Enter the City Name");
 
-	Thread.sleep(2000);
+	Thread.sleep(4000);
 	
 	 driver.findElement(By.id("react-autosuggest-1-suggestion--1")).click();
 	test1.pass("Click on city via Dropdown option");
@@ -65,7 +74,7 @@ test1.pass("Click on Search button");
 
 Thread.sleep(2000);
 
-driver.findElement(By.xpath("//*[@id=\"srpContainer\"]/div[2]/div[2]/div/div[1]/div/ul/li[5]/div/div[3]/div")).click();
+driver.findElement(By.xpath("//body/div[@id='content']/div/div/div[@id='srpContainer']/div[@class='width100 fl greyBg']/div[@class='srpCont srpContShopping']/div[@class='col-md-12 col-sm-12 col-xs-12']/div[@class='filterComp ipaddn mobdn db']/div[@class='col-md-12 col-sm-12 col-xs-12 pad0']/ul[@class='accordianfiltr']/li[@class='accordItem']/div[@class='accordContnt']/div[3]/label[1]")).click();
 test1.pass("Click on two star hotel");
 
 Thread.sleep(2000);
