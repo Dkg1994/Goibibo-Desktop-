@@ -124,7 +124,7 @@ System.setProperty("webdriver.chrome.driver","D:\\Eclips backup\\Jar Files for u
 	  
 	  driver.findElement(By.xpath("//*[@id=\"travellerForm\"]/div[14]/div[2]")).click();
 	  test1.pass("Click On Pay button");
-	  Thread.sleep(7000);
+	  Thread.sleep(15000);
 	  
 	  driver.findElement(By.xpath("//*[@id=\"nb\"]/div[1]/div[1]/div[2]")).click();
 	  test1.pass("Click on Netbanking");
