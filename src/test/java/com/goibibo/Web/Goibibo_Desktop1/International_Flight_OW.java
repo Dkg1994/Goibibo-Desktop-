@@ -35,16 +35,21 @@ public class International_Flight_OW {
 			
 	      WebDriver driver = new ChromeDriver();
 	      
+			driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+
+	      
+	      driver.manage().window().maximize();
+	      
+
+	      
 	  		test1.log(Status.INFO, "Starting test case");
 
 	      driver.get("https://www.goibibo.com");
 	      test1.pass("Go to Goibibo");
 	        extent.flush();
 	        
-	        
-	      driver.manage().window().maximize();
 	      
-			driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+	      
 					
 	      driver.findElement(By.xpath("//*[@id=\"header\"]/div[1]/ul/li[1]/a/i")).click();
 	      test1.pass("Click on Flight Icon");
@@ -119,7 +124,7 @@ test1.pass("Click on Non Stop from Filter");
 
 extent.flush();
 	
-	Thread.sleep(3000);
+	Thread.sleep(8000);
 
 
 	//To click on book button

@@ -125,7 +125,7 @@ public class Train_Vertical {
 		extent.flush();
 		Thread.sleep(4000);
 		
-		driver.findElement(By.xpath("//*[@id=\"selectedBank\"]/option[6]")).click();
+		driver.findElement(By.xpath("//*[@id=\"selectedBank\"]/option[2]")).click();
 		test1.pass("Select Bank");
 		extent.flush();
 		

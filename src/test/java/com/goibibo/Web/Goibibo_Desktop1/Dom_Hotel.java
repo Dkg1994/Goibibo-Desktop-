@@ -36,17 +36,12 @@ public class Dom_Hotel {
 	System.setProperty("webdriver.chrome.driver","D:\\Eclips backup\\Jar Files for use in selenium\\chromedriver_win32\\chromedriver.exe");
 		
 	  WebDriver driver = new ChromeDriver();
+	  
 
-	  	
-//	  	System.setProperty("webdriver.gecko.driver","D:\\Software\\geckodriver-v0.22.0-win32\\geckodriver.exe");
-//	  			
-	//  	
-	//
-//	  	 WebDriver driver = new FirefoxDriver();
-	      
 	  driver.manage().window().maximize();
 	  
 		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+
 
 	  
 	  test1.log(Status.INFO, "Starting the test case");

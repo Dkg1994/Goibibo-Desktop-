@@ -6,6 +6,7 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
@@ -67,28 +68,31 @@ public class International_Hotel {
 		test1.pass("Click on Search button");
 		extent.flush();
 		
-		Thread.sleep(2000);
 		
-		driver.findElement(By.xpath("//*[@id=\"srpContainer\"]/div[2]/div[2]/div/div[1]/div/ul/li[5]/div/div[3]")).click();
+		driver.findElement(By.xpath("//span[@class='width100 fl txtCenter ico16 greyDr fb padB5'][contains(text(),'goStays')]")).click();
+		test1.pass("Click on Gostays");
 		extent.flush();
-		
 		
 		Thread.sleep(3000);
 		
-		
-		
-		JavascriptExecutor js = (JavascriptExecutor) driver;
-		        js.executeScript("window.scrollBy(0,100)");
-		        
-		        Thread.sleep(4000);
-
-		  driver.findElement(By.xpath("//section[1]//div[1]//div[2]//div[2]//div[3]//button[1]")).click();
-		  test1.pass("Click on Book Now button");
+		JavascriptExecutor jsx = (JavascriptExecutor)driver;
+		jsx.executeScript("window.scrollBy(0,450)", "");
+		test1.pass("Scoll the SRP page");
 		extent.flush();
-		  
-
 		
-		Thread.sleep(5000);
+		Thread.sleep(2000);
+		
+		driver.findElement(By.xpath("//section[1]//div[1]//div[2]//div[2]//div[3]//button[1]")).click();
+		test1.pass("Click on Hotel Book button from SRP");
+		extent.flush();
+		
+		Thread.sleep(2000);
+		
+		
+		
+		
+	
+		
 		
 	//------------------------------ To Switch in other Tab---------------------------
 
