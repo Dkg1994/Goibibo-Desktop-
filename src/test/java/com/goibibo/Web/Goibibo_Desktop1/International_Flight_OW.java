@@ -29,16 +29,18 @@ public class International_Flight_OW {
 	      ExtentTest test1 = extent.createTest("Goibibo Dom_Flight ", "Check Flow of Flight");
 	  
 		 
-		 
+		 Thread.sleep(4000);
 
 			System.setProperty("webdriver.chrome.driver","D:\\Eclips backup\\Jar Files for use in selenium\\chromedriver.exe");
 			
 	      WebDriver driver = new ChromeDriver();
 	      
-			driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+	      driver.manage().window().maximize();
 
 	      
-	      driver.manage().window().maximize();
+			driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+
+	      
 	      
 
 	      
