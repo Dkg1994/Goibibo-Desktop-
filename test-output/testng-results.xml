@@ -2,32 +2,30 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="7976" started-at="2019-07-26T12:06:15Z" finished-at="2019-07-26T12:06:23Z">
+  <suite name="Default suite" duration-ms="59117" started-at="2019-07-29T13:56:32Z" finished-at="2019-07-29T13:57:31Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="7976" started-at="2019-07-26T12:06:15Z" finished-at="2019-07-26T12:06:23Z">
-      <class name="com.goibibo.Web.Goibibo_Desktop1.Car_Vertical">
-        <test-method status="FAIL" signature="f()[pri:0, instance:com.goibibo.Web.Goibibo_Desktop1.Car_Vertical@42d80b78]" name="f" duration-ms="7939" started-at="2019-07-26T12:06:15Z" finished-at="2019-07-26T12:06:23Z">
-          <exception class="org.openqa.selenium.WebDriverException">
+    <test name="Default test" duration-ms="59117" started-at="2019-07-29T13:56:32Z" finished-at="2019-07-29T13:57:31Z">
+      <class name="com.goibibo.Web.Goibibo_Desktop1.International_Flight_OW">
+        <test-method status="FAIL" signature="f()[pri:0, instance:com.goibibo.Web.Goibibo_Desktop1.International_Flight_OW@42d80b78]" name="f" duration-ms="59077" started-at="2019-07-29T13:56:32Z" finished-at="2019-07-29T13:57:31Z">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
             <message>
-              <![CDATA[unknown error: cannot determine loading status
-from disconnected: received Inspector.detached event
+              <![CDATA[element click intercepted: Element <input type="button" value="BOOK" class="button fr fltbook fb widthF105 fb quicks"> is not clickable at point (1201, 430). Other element would receive the click: <iframe name="notification-frame-b8a4ab8b" id="webklipper-publisher-widget-container-notification-frame" frameborder="0" marginheight="0" marginwidth="0" style="display: block; z-index: 16776272; position: fixed; visibility: visible; height: 295px; width: 154px; top: auto; left: auto; right: 20px; overflow: hidden; bottom: 20px;" data-notification-layout-id="i78egag" data-notification-layout-name="banner"></iframe>
   (Session info: chrome=75.0.3770.80)
 Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
-System info: host: 'DEVENDRAGUPTA', ip: '172.100.151.81', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+System info: host: 'DEVENDRAGUPTA', ip: '172.100.151.26', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.80, chrome: {chromedriverVersion: 75.0.3770.8 (681f24ea911fe7..., userDataDir: C:\Users\DEVEND~1.GUP\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:65448}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 788f1aa46fc7d34bb97702caa4bc9f51]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.80, chrome: {chromedriverVersion: 75.0.3770.8 (681f24ea911fe7..., userDataDir: C:\Users\DEVEND~1.GUP\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:64052}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b2c0d1f0344942939202346b64f5e6b7]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
-from disconnected: received Inspector.detached event
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input type="button" value="BOOK" class="button fr fltbook fb widthF105 fb quicks"> is not clickable at point (1201, 430). Other element would receive the click: <iframe name="notification-frame-b8a4ab8b" id="webklipper-publisher-widget-container-notification-frame" frameborder="0" marginheight="0" marginwidth="0" style="display: block; z-index: 16776272; position: fixed; visibility: visible; height: 295px; width: 154px; top: auto; left: auto; right: 20px; overflow: hidden; bottom: 20px;" data-notification-layout-id="i78egag" data-notification-layout-name="banner"></iframe>
   (Session info: chrome=75.0.3770.80)
 Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
-System info: host: 'DEVENDRAGUPTA', ip: '172.100.151.81', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+System info: host: 'DEVENDRAGUPTA', ip: '172.100.151.26', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.80, chrome: {chromedriverVersion: 75.0.3770.8 (681f24ea911fe7..., userDataDir: C:\Users\DEVEND~1.GUP\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:65448}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 788f1aa46fc7d34bb97702caa4bc9f51
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.80, chrome: {chromedriverVersion: 75.0.3770.8 (681f24ea911fe7..., userDataDir: C:\Users\DEVEND~1.GUP\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:64052}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b2c0d1f0344942939202346b64f5e6b7
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -38,8 +36,9 @@ at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCo
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:325)
-at com.goibibo.Web.Goibibo_Desktop1.Car_Vertical.f(Car_Vertical.java:35)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+at com.goibibo.Web.Goibibo_Desktop1.International_Flight_OW.f(International_Flight_OW.java:138)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -67,11 +66,11 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-      </class> <!-- com.goibibo.Web.Goibibo_Desktop1.Car_Vertical -->
+      </class> <!-- com.goibibo.Web.Goibibo_Desktop1.International_Flight_OW -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

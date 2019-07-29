@@ -115,28 +115,28 @@ public class International_Flight_OW {
 
 	//Select Stoppage filter
 	    
-	    driver.findElement(By.xpath("//a[@id='stopsFilter']")).click();
+	    driver.findElement(By.xpath("//body/div[@id='content']/div/div/div[@class='paleGreyBg2 width100 fl']/div[@class='fltHpyWrp padT10 marginT20']/div/div/div[@id='filterContainer']/div[@class='stickyHpy pad20']/div[@class='whiteBg brdrRd5 flexCol marginB5']/div[@class='dF padT10 justifyBetween fltrStp flexWrap']/label[1]/span[1]")).click();
 	    test1.pass("CLick on Stoppage filter");
 	    extent.flush();
 	    
 	    Thread.sleep(2000);
-
-	driver.findElement(By.xpath("//label[contains(text(),'Non Stop')]")).click();
-test1.pass("Click on Non Stop from Filter");
-
-extent.flush();
 	
 	Thread.sleep(8000);
 
 
-	//To click on book button
-
+//Click on Airindia airline from filters
 	    
-	 driver.findElement(By.xpath("//div[@class='width100 fl greyBg']//div[4]//div[2]//div[2]//div[2]//div[1]//span[1]//span[1]//input[1]")).click();
-	 test1.pass("Click on Book button");
-    extent.flush();
+//	 driver.findElement(By.xpath("//div[@id='Air India']//span[@class='padL10 dF alignItemsCenter']")).click();
+//	 test1.pass("Click on Book button");
+//    extent.flush();
 	 
 	 Thread.sleep(7000);
+	 
+		//To click on book button
+
+	 
+	 driver.findElement(By.xpath("//body//div[@class='fltHpyWrp padT10 marginT20']//div//div[1]//div[1]//div[1]//div[1]//div[2]//span[1]//span[1]//input[1]")).click();
+	 Thread.sleep(8000);
 	 
 	// To click on Baggage & fare rule button on review page
 	 

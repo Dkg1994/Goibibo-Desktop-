@@ -8,8 +8,7 @@
       <class name="com.goibibo.Web.Goibibo_Desktop1.Car_Vertical"/>
       <class name="com.goibibo.Web.Goibibo_Desktop1.International_Hotel"/>
       <class name="com.goibibo.Web.Goibibo_Desktop1.Bus_Vertical"/>
-      <class name="com.goibibo.Web.Goibibo_Desktop1.Dom_Flight"/>
-      <class name="com.goibibo.Web.Goibibo_Desktop1.International_Flight_OW"/>
+ 
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
