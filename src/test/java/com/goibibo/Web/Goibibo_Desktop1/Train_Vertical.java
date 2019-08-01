@@ -35,7 +35,7 @@ public class Train_Vertical {
 	        driver.manage().window().maximize();
 
 	        test1.log(Status.INFO, "Starting test case");
-	        driver.get("https://www.goibibo.com/trains/results?src=AGC&dst=DEC&date=20190801&class=All&srcname=Agra%20Cantt.%20Railway%20Station&dstname=Delhi%20Cantt.%20Railway%20Station");
+	        driver.get("https://www.goibibo.com/trains/results?src=DEC&dst=AGC&date=20191101&class=All&srcname=Delhi%20Cantt.%20Railway%20Station&dstname=Agra%20Cantt.%20Railway%20Station");
 	        test1.pass("Go To Train SRP");
 	        extent.flush();
 	        
