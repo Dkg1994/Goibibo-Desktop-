@@ -89,7 +89,7 @@ public class Dom_Flight {
 		          
 //		          To select date
 		          
-		          driver.findElement(By.xpath("//*[@id=\"fare_20190831\"]")).click();
+		          driver.findElement(By.xpath("//*[@id=\"fare_20190930\"]")).click();
 		          test1.pass("Click on Date 27");
 		          extent.flush();
 		          
@@ -105,26 +105,26 @@ public class Dom_Flight {
 		        
 //		          To check airlines filters.
 		          
-		  driver.findElement(By.xpath("//*[@id=\"airlinesFilter\"]/span/i[2]")).click();
+		  driver.findElement(By.xpath("/html[1]/body[1]/div[2]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[3]/div[2]/label[1]/span[1]")).click();
 		    test1.pass("Click on Airlines Filter");
 		    extent.flush();
 		    
 		    Thread.sleep(4000);
 		    
-		    
-		  //  Click on Air-india from airline filter
-		    
-		    driver.findElement(By.xpath("//*[@id=\"sticky\"]/div/ul/li[4]/ul/li[2]/span[1]/label")).click();
-		    
-		    test1.pass("Click on Airindia Airline from Filter");
-		    extent.flush();
+//		    
+//		  //  Click on Air-india from airline filter
+//		    
+//		    driver.findElement(By.xpath("//div[@id='IndiGo']")).click();
+//		    
+//		    test1.pass("Click on Airindia Airline from Filter");
+//		    extent.flush();
 		    
 		    Thread.sleep(9000);
 		    
 		  //  To click on book button
 		    
 		    
-		       driver.findElement(By.xpath("//div[@class='width100 fl greyBg']//div[4]//div[2]//div[2]//div[1]//div[1]//span[1]//span[1]//input[1]")).click();
+		       driver.findElement(By.xpath("//input[@class='button fr fltbook fb widthF105 fb quicks']")).click();
 		       test1.pass("Click on Book button");
 		       extent.flush();
 		       

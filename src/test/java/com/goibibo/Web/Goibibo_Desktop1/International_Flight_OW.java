@@ -98,7 +98,7 @@ public class International_Flight_OW {
 	      
 //	      To select date
 	      
-	      driver.findElement(By.xpath("//div[@id='fare_20190831']")).click();
+	      driver.findElement(By.xpath("//*[@id=\"fare_20190930\"]")).click();
 	      test1.pass("Click on Date 27");
          extent.flush();
 	      
