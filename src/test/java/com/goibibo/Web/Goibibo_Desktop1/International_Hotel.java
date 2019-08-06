@@ -167,7 +167,7 @@ public class International_Hotel {
 		  test1.pass("Click On Pay button");
 		  extent.flush();
 		  
-		  Thread.sleep(20000);
+		  Thread.sleep(25000);
 		  
 		  driver.findElement(By.xpath("//*[@id=\"nb\"]/div[1]/div[1]/div[2]")).click();
 		  test1.pass("Click on Netbanking");

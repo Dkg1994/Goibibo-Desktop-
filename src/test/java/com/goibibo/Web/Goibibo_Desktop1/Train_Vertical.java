@@ -89,6 +89,13 @@ public class Train_Vertical {
 		extent.flush();
 		Thread.sleep(2000);
 		
+		if(driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div/div[2]/div[2]/form/div[1]/div[3]/div[1]/div[2]/select/option[2]")).isDisplayed() );{
+		
+			driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div/div[2]/div[2]/form/div[1]/div[3]/div[1]/div[2]/select/option[2]")).click();
+		}
+		
+		
+		
 		driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div/div[2]/div[2]/form/div[7]/div[2]/div[2]/div[1]/input")).sendKeys("testnoc009@gmail.com");
 		test1.pass("Enter Email id");
 		extent.flush();
