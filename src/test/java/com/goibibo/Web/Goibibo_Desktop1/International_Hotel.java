@@ -53,7 +53,7 @@ public class International_Hotel {
 			
 			Thread.sleep(3000);
 			
-			driver.findElement(By.xpath("//*[@id=\"gosuggest_inputL\"]")).sendKeys("Singapore");
+			driver.findElement(By.xpath("//*[@id=\"gosuggest_inputL\"]")).sendKeys("Dubai");
 			test1.pass("Enter the City Name");
 			extent.flush();
 			
